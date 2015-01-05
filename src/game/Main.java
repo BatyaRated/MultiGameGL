@@ -26,6 +26,7 @@ public class Main extends SimpleApplication {
         SpriteManager man = new SpriteManager(1024, 1024, SpriteMesh.Strategy.KEEP_BUFFER, rootNode, assetManager);
        stateManager.attach(man);
        
+        System.out.println("test");
        
 //        Box b = new Box(1, 1, 1);
 //        Geometry geom = new Geometry("Box", b);
