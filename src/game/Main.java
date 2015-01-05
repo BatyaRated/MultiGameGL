@@ -27,7 +27,7 @@ public class Main extends SimpleApplication {
        stateManager.attach(man);
        
         System.out.println("test");
-       
+        System.out.println("Penispenispenis");
 //        Box b = new Box(1, 1, 1);
 //        Geometry geom = new Geometry("Box", b);
 //
