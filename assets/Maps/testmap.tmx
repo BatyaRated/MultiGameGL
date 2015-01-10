@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32">
+  <tile id="0">
+   <image width="32" height="32" source="tile2.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="tile3.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="tiletransparent.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="test2" tilewidth="64" tileheight="64">
+  <tile id="0">
+   <image width="64" height="64" source="item.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="invalid.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="bgs" tilewidth="512" tileheight="512">
+  <tile id="0">
+   <image width="512" height="512" source="samplebg.png"/>
+   <objectgroup draworder="index"/>
+  </tile>
+ </tileset>
+ <layer name="Kachelebene 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3dGOgjAQBVBY//+f92GzkVTaTkupJD0nIYqCxrmWAi+zb9u2Bxc+RetVq2NrrWVUFv1Pj8rj6n78iWQVqe3V/FfUUrM9s9/Rq/NzV86m5biUvr4l70XmonT5SZaVM4keZ862zY2T9L1IFrn1FfNo2Saax9lnpOMgV/tV84j+zlIGtTyiGRgfbedELetHtQyiWa0i93tbXo8cr471PlvnreX/2JvHPzmMtSePpefcK53Ht+S5LOaqZSCPeUrXfel2fEdtbj9b5z65PHLXj6tdS8xWujdS208245XyaLkXU1qIi1w3qus86gwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPB8+no8R613LXPVencxT6SXGvO09IDmfvJ4jhF97RhHHmOMqlWu/+nI71jBlX6X0Z6Zxki/Wm/SXN1rxyt5zBWZP2QyT24MuJf1PbU8evan39l5Vcv4MIY+tc7nV5ez7+WtVpfeuv8C68MB7Q==
+  </data>
+ </layer>
+ <layer name="Kachelebene 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENAAAIw7BK/P8zX0AH+4IsSQDgznwHQBlPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9FkV8AAH
+  </data>
+ </layer>
+ <objectgroup name="Objektebene 1" opacity="0.9">
+  <object gid="4" x="520" y="191"/>
+  <object gid="4" x="545" y="273"/>
+  <object gid="5" x="431" y="290"/>
+  <object gid="5" x="658" y="186"/>
+  <object gid="5" x="684" y="267"/>
+  <object x="25" y="322" width="499" height="41"/>
+  <object x="540.424" y="359.174" width="195" height="72" rotation="-20.2489"/>
+ </objectgroup>
+</map>
